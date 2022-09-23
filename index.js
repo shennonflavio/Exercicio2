@@ -21,3 +21,11 @@ function calcBase() {
   perimeter.value = (resultPerimeter * 2).toFixed(4);
   diagonal.value = Math.sqrt(resultDiagonal).toFixed(4);
 }
+
+function reset() {
+  document.getElementById("base").value = "";
+  document.getElementById("height").value = "";
+  document.getElementById("area").value = "";
+  document.getElementById("perimeter").value = "";
+  document.getElementById("diagonal").value = "";
+}
